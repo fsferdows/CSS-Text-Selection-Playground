@@ -1,0 +1,6 @@
+{
+  "name": "CSS Text Selection Playground",
+  "description": "An interactive design playground to compare default and custom CSS text selections, design your own ::selection styles, and copy code snippets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

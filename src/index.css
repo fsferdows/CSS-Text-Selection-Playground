@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Hardcode unoptimized styling for the bad example pill selection */
+.bad-selection-sample::selection,
+.bad-selection-sample *::selection {
+  background-color: #ff0000 !important;
+  color: #00ff00 !important;
+}
+
+/* Smooth selection support for other elements */
+.smooth-select {
+  user-select: all;
+}
+
